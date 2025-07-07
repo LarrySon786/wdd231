@@ -1,0 +1,65 @@
+:root {
+    --black: #080809;
+    --mintgreen: #62BC8C;
+    --lightgreen: #459D6E;
+    --darkgreen: #27533C;
+}
+
+* {
+    font-family: poppins;
+}
+
+
+
+
+
+
+
+
+
+header {
+    display:grid;
+    grid-template-columns: 100px auto auto auto;
+    padding: 1rem;
+    background-color: var(--black);
+    color: white
+}
+
+nav {
+    align-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5rem;
+    color: white;
+    font-size: 1.3rem;
+}
+h1 {
+}
+
+
+/* Footer */
+footer {
+    display:flex;
+    justify-content: space-around;
+    background-color: var(--mintgreen);
+    padding: 1rem;
+    column-gap: 1rem;
+    font-size: 1rem;
+}
+
+.social-logos ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.social-logos ul li {
+    padding: 1rem;
+}
+
+#bold-name {
+    font-weight: 700;
+}

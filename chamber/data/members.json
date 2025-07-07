@@ -1,0 +1,98 @@
+
+{
+    "companies": [
+        {
+            "name": "Smuckers",
+            "address": {
+                "street": "333 Wadsworth Road",
+                "city": "Orrville",
+                "state": "Ohio",
+                "zip": "44667"
+            },
+            "phone": "330-684-1500",
+            "websites": "https://www.jmsmucker.com/contact",
+            "image": "https://tse3.mm.bing.net/th/id/OIP.9SyB9pPW__hIDr9PgRRSNQHaDa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+            "membership-level": 3
+        },
+        {
+            "name": "SmithFoods Orrville Inc",
+            "address": {
+                "street": "230 N Vine Street",
+                "city": "Orrville",
+                "state": "Ohio",
+                "zip": "44667"
+            },
+            "phone": "330-683-8710",
+            "websites": "https://www.smithfoods.com/",
+            "image": "https://tse4.mm.bing.net/th/id/OIP.aXxZQt3O579ydVHSbGq0jwHaFv?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+            "membership-level": 3
+        },
+        {
+            "name": "Aultman Hospital",
+            "address": {
+                "street": "832 S Main Street",
+                "city": "Orrville",
+                "state": "Ohio",
+                "zip": "44667"
+            },
+            "phone": "330-682-3010",
+            "websites": "https://www.aultmanorrville.org/",
+            "image": "https://aultman.org/resources/themes/aultman/images/Logo-Aultman.png",
+            "membership-level": 2
+        },
+        {
+            "name": "Buehlers",
+            "address": {
+                "street": "1114 W High Street",
+                "city": "Orrville",
+                "state": "Ohio",
+                "zip": "44667"
+            },
+            "phone": "330-683-2060",
+            "websites": "https://www.buehlers.com/",
+            "image": "https://tse2.mm.bing.net/th/id/OIP.MG162n7Le_DtebhQ2QcVMgHaEc?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+            "membership-level": 1
+        },
+        {
+            "name": "Ace Hardware",
+            "address": {
+                "street": "1400 W High street",
+                "city": "Orrville",
+                "state": "Ohio",
+                "zip": "44667"
+            },
+            "phone": "330-930-0320",
+            "websites": "https://www.ehhardware.com/",
+            "image": "https://tse4.mm.bing.net/th/id/OIP.Td6f-nYGAfUnD0U9d7cUBgHaBS?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+            "membership-level": 3
+        },
+        {
+            "name": "Gionino's Pizzeria",
+            "address": {
+                "street": "127 E Water Street",
+                "city": "Orrville",
+                "state": "Ohio",
+                "zip": "44667"
+            },
+            "phone": "330-682-0630",
+            "websites": "https://www.gioninos.com/locations/oh-orrville-127-e-water-st-44667",
+            "image": "https://s3.amazonaws.com/thumbnail.gethired.com/ugc/employerlogo/f5dd266c4c73b0fc2c5032109861a83c.jpg-original.jpg",
+            "membership-level": 3
+        },
+        {
+            "name": "PNC Bank",
+            "address": {
+                "street": "101 W Market Street",
+                "city": "Orrville",
+                "state": "Ohio",
+                "zip": "44667"
+            },
+            "phone": "330-683-3055",
+            "websites": "https://pnc.banklocationmaps.com/en/branch/658987-pnc-branch-101-w-market-st",
+            "image": "https://www.pngkey.com/png/full/319-3193364_pnc-bank-logo-png.png",
+            "membership-level": 2
+        }
+    ]
+}
+
+
