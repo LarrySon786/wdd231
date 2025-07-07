@@ -1,0 +1,13 @@
+main {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    column-gap: 1rem;
+}
+main section {
+    background-color: lavender;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    
+
+}

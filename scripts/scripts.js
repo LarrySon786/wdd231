@@ -157,6 +157,15 @@ cseButton.addEventListener('click', () => {
             total = total + 1;
             credits = credits + course.credits;
         }
+        else if (course.completed === false && course.subject === "CSE") {
+            let newElement = document.createElement("p");
+            newElement.classList.add('incomplete');
+            newElement.innerHTML = `${course.subject} ${course.number} - Not Completed`;
+            displaySection.appendChild(newElement);
+            total = total + 1;
+            credits = credits + course.credits;
+
+        }
     })
     totalCredits.innerHTML = `The total number of courses listed is ${total}. The total credits for these is ${credits}`;
 })
@@ -173,6 +182,15 @@ wddButton.addEventListener('click', () => {
             displaySection.appendChild(newElement);
             total = total + 1;
             credits = credits + course.credits;
+        }
+        else if (course.completed === false && course.subject === "WDD") {
+            let newElement = document.createElement("p");
+            newElement.classList.add('incomplete');
+            newElement.innerHTML = `${course.subject} ${course.number} - Not Completed`;
+            displaySection.appendChild(newElement);
+            total = total + 1;
+            credits = credits + course.credits;
+
         }
     })
     totalCredits.innerHTML = `The total number of courses listed is ${total}. The total credits for these is ${credits}`;

@@ -1,0 +1,23 @@
+{  
+    "familyName": "Richards",
+    "dateMovedIn": "6/26/2001",
+    "numberOfPeople": 5,
+    "visitedByBishop": true,
+    "familyMember": [
+        {
+            "name": "Brandon",
+            "gender": "male",
+            "birthdate": "06/26/2001"
+        },
+        {
+            "name": "James",
+            "gender": "male",
+            "birthdate": "12/26/2005"
+        },
+        {
+            "name": "Susie",
+            "gender": "female",
+            "birthdate": "05/25/2008"
+        }
+    ]
+}
