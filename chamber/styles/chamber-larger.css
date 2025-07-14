@@ -1,3 +1,24 @@
-@media screen and (min-width: 640px) {
+@media screen and (max-width: 800px) {
+    nav a {
+        display: block;
+    }
+    /* nav a::before {
+        content:"o ";
+    } */
+
+    .display-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+    }
+    
+    .display-list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;   
+    }
+
+
+
 
 }
