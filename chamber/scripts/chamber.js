@@ -15,6 +15,17 @@ footerModifiedDate.innerHTML = `Last Modification: ${dateModified}`
 
 
 
+//Hamburger Menu
+let hamburgerButton = document.querySelector(".hamburger");
+const navigation = document.querySelector(".navigation");
+
+hamburgerButton.addEventListener('click', () => {
+    hamburgerButton.classList.toggle('show');
+    navigation.classList.toggle('show');
+})
+
+
+
 
 //Alternate display between Grid and List
 const gridButton = document.querySelector("#grid-option");
