@@ -88,8 +88,13 @@ h3 {
     position: relative;
 }
 
-.hero-container button {
+#hero-img {
+    width: 100%;
+}
+
+.hero-container a {
     position: absolute;
+    text-decoration: none;
     padding: 2rem;
     padding-left: 4rem;
     padding-right: 4rem;
