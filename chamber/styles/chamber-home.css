@@ -15,8 +15,10 @@
 
 
 
-
-
+/* Events */
+#events {
+    padding: 2rem;
+}
 
 /* Weather Boxes */
 .weather-boxes {
