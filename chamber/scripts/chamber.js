@@ -32,9 +32,13 @@ const gridButton = document.querySelector("#grid-option");
 const listButton = document.querySelector("#list-option");
 const divBusinessCards = document.querySelector("#business-cards");
 
+
+
 gridButton.addEventListener('click', () => {
-    divBusinessCards.classList.add("display-grid");
+    divBusinessCards.classList.remove("display-grid");
     divBusinessCards.classList.remove("display-list");
+    divBusinessCards.classList.add("display-grid");
+    
 
     divBusinessCards.replaceChildren();
     getChamberBusinesses();
@@ -42,8 +46,10 @@ gridButton.addEventListener('click', () => {
 })
 
 listButton.addEventListener('click', () => {
-    divBusinessCards.classList.add("display-list");
     divBusinessCards.classList.remove("display-grid");
+    divBusinessCards.classList.remove("display-list");
+    divBusinessCards.classList.add("display-list");
+    
 
     divBusinessCards.replaceChildren();
     getChamberBusinessesForList();
@@ -52,17 +58,17 @@ listButton.addEventListener('click', () => {
 
 //JSON work
 
-const url = "data/members.json";
+const urlJSON = "data/members.json";
 
 
 async function getChamberBusinessesForList() {
-    const response = await fetch(url);
+    const response = await fetch(urlJSON);
     const data = await response.json();
     displayBusinessList(data.companies);
 }
 
 async function getChamberBusinesses() {
-    const response = await fetch(url);
+    const response = await fetch(urlJSON);
     const data = await response.json();
     displayBusinessCards(data.companies);
 }

@@ -44,6 +44,14 @@ nav a:hover {
     border-radius: 1.5rem;
 }
 
+#selected {
+    background-color: white;
+    color: var(--black);
+    font-weight: 700;
+    border-radius: 1.5rem;
+        
+}
+
 h1 {
     text-align: left;
     margin-left: 2rem;
@@ -52,7 +60,7 @@ h1 {
 
 
 
-/* body */
+/* Directory body */
 #business-cards {
     margin-left: 4rem;
     margin-right: 4rem;
@@ -99,17 +107,7 @@ h1 {
     font-size: 1.2rem;
 }
 
-#hero-img {
-    position: relative;
-}
 
-main > button {
-    position:absolute;
-    padding:2rem;
-    bottom:25%;
-    right:10%;
-    background-color: white;
-}
 
 
 /* Designing Business Cards */

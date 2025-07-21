@@ -1,0 +1,104 @@
+:root {
+    --black: #080809;
+    --mintgreen: #62BC8C;
+    --lightgreen: #459D6E;
+    --darkgreen: #27533C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Weather Boxes */
+.weather-boxes {
+    display: grid;
+    grid-template-columns: 2fr auto auto;
+    column-gap: 1rem;
+}
+
+.weather-boxes section {
+    border: 1px solid var(--black);
+    background-color: var(--lightgreen);
+    margin: 1rem;
+
+}
+.weather-boxes section h2 {
+    border: 1px solid var(--black);
+    background-color: var(--black);
+    color: white;
+    padding: 1rem;
+    padding-left: 1rem;
+
+}
+
+
+#current-weather {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    padding:10px;
+}
+
+#current-weather p {
+    grid-column: 2/3;
+    row-gap: 10px;
+    font-weight: 600;
+}
+
+#current-weather img {
+    background-color: lightgray;
+    border-radius: 1rem;
+    padding:3px;
+}
+#forcast-weather {
+    height:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+
+/* Spotlight Boxes */
+#spot-light {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem;
+    grid-gap: 2rem;
+}
+h3 {
+    text-align: left;
+    margin-left: 2rem;
+}
+
+
+/* Hero Image Absolute Positioning */
+.hero-container {
+    position: relative;
+}
+
+.hero-container button {
+    position: absolute;
+    padding: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    bottom: 10%;
+    right: 5%;
+    background-color: var(--black);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: 5px solid white
+}
+

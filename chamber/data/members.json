@@ -12,7 +12,7 @@
             "phone": "330-684-1500",
             "websites": "https://www.jmsmucker.com/",
             "image": "https://tse3.mm.bing.net/th/id/OIP.9SyB9pPW__hIDr9PgRRSNQHaDa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-            "membership-level": 3
+            "membershipLevel": "Gold"
         },
         {
             "name": "SmithFoods Orrville Inc",
@@ -25,7 +25,7 @@
             "phone": "330-683-8710",
             "websites": "https://www.smithfoods.com/",
             "image": "https://tse4.mm.bing.net/th/id/OIP.aXxZQt3O579ydVHSbGq0jwHaFv?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-            "membership-level": 3
+            "membershipLevel": "Gold"
         },
         {
             "name": "Aultman Hospital",
@@ -38,7 +38,7 @@
             "phone": "330-682-3010",
             "websites": "https://www.aultmanorrville.org/",
             "image": "https://aultman.org/resources/themes/aultman/images/Logo-Aultman.png",
-            "membership-level": 2
+            "membershipLevel": "Silver"
         },
         {
             "name": "Buehlers",
@@ -51,7 +51,7 @@
             "phone": "330-683-2060",
             "websites": "https://www.buehlers.com/",
             "image": "https://tse2.mm.bing.net/th/id/OIP.MG162n7Le_DtebhQ2QcVMgHaEc?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-            "membership-level": 1
+            "membershipLevel": "Bronze"
         },
         {
             "name": "Ace Hardware",
@@ -64,7 +64,7 @@
             "phone": "330-930-0320",
             "websites": "https://www.ehhardware.com/",
             "image": "https://tse4.mm.bing.net/th/id/OIP.Td6f-nYGAfUnD0U9d7cUBgHaBS?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-            "membership-level": 3
+            "membershipLevel": "Gold"
         },
         {
             "name": "Gionino's Pizzeria",
@@ -77,7 +77,7 @@
             "phone": "330-682-0630",
             "websites": "https://www.gioninos.com/",
             "image": "https://s3.amazonaws.com/thumbnail.gethired.com/ugc/employerlogo/f5dd266c4c73b0fc2c5032109861a83c.jpg-original.jpg",
-            "membership-level": 3
+            "membershipLevel": "Gold"
         },
         {
             "name": "PNC Bank",
@@ -90,7 +90,7 @@
             "phone": "330-683-3055",
             "websites": "https://pnc.com/",
             "image": "https://www.pngkey.com/png/full/319-3193364_pnc-bank-logo-png.png",
-            "membership-level": 2
+            "membershipLevel": "Silver"
         }
     ]
 }

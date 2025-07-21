@@ -10,8 +10,10 @@
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/chamber-home.css">
     <link rel="stylesheet" href="styles/chamber-smaller.css">
     <script src="scripts/home.js" defer></script>
+    <!-- <script src="scripts\chamber.js" defer></script> -->
 
     <link rel="icon" href="images/favicon-chamber.ico">
     
@@ -32,39 +34,43 @@
         <img src="images/ohio-logo.png" alt="Chamber of Commerce Logo" width="75">
         <h1>Orrville Chamber of Commerce</h1>
         <p></p>
-        <nav>
-            <a href="index.html">Home</a>
+        <button class="hamburger" title="Open Navigation Menu"></button>
+        <nav class="navigation">
+            <a href="index.html" id="selected">Home</a>
             <a href="directory.html">Directory</a>
             <a href="join.html">Join</a>
             <a href="discover.html">Discover</a>
         </nav>
     </header>
     <main>
-        <div>
+        <div class="hero-container">
             <img id="hero-img" src="images/farm-rows-of-green-cropped.webp" alt="Farmland photo" loading="lazy" width="100%">
             <a href="join.html"><button>Join Now</button></a>
         </div>
 
         <h1>Home</h1>
-        <section id="events">
+        <div class="weather-boxes">
+            <section>
+                <h2>Events</h2>
+                <div id="events">
 
-
-        </section>
-        <section id="current-weather">
-
-        </section>
-        <section id="forcast-weather">
-
-        </section>
-
-        <div id="spot-light1">
-
+                </div>
+            </section>
+            <section>
+                <h2>Current Weather</h2>
+                <div id="current-weather">
+                </div>
+            </section>
+            <section>
+                <h2>Weather Forecast</h2>
+                <div id="forcast-weather">
+                </div>
+            </section>
         </div>
-        <div id="spot-light2">
-        
-        </div>
-        <div id="spot-light3">
-        
+        <h3>Business Spotlight</h3>
+        <div id="spot-light">
+
+
         </div>
 
     </main>
@@ -80,7 +86,7 @@
             <ul>
                 <li>
                     <a href="https://www.linkedin.com/in/brandon-richards-4a90bb35b/">
-                        <img src="images/linked-in.svg" alt="linkedin logo" loading="lazy" width="75">
+                        <img src="images/linked-in.svg" alt="linkedin logo" width="75">
                     </a>
                 </li>
                 <li>
