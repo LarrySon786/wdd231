@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week05 Form Activity</title>
+    <meta name="description" content="Brandon James Richards | WDD131 - Form Project">
+    <meta name="author" content="Brandon Richards">
+    <link rel="stylesheet" href="styles/form.css">
+    <!-- <link rel="stylesheet" href="styles/filtered-temples-large.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <h1>Product Review</h1>
+    <form class="product-form" method="get" action="review.html">
+        <fieldset>
+            <legend>Product Information</legend>
+            <label>Product Name* 
+                <select name="options" id="options">
+                    <option value="" selected disabled>Select a Product</option>
+                    <!-- <option value=""></option> -->
+                 </select>
+            </label>
+            <div>Overall Rating*</div>
+            <label><input type="radio" name="review" value="1-star" required>⭐</label>
+            <label><input type="radio" name="review" value="2-star" required>⭐⭐</label>
+            <label><input type="radio" name="review" value="3-star" required>⭐⭐⭐</label>
+            <label><input type="radio" name="review" value="4-star" required>⭐⭐⭐⭐</label>
+            <label><input type="radio" name="review" value="5-star" required>⭐⭐⭐⭐⭐</label>
+            <label>Date of Installation* <input type="date" id="date" name="completeDate" required></label>
+        </fieldset>
+        <fieldset>
+            <legend>Product Review</legend>
+            <div>Which features did you find useful in the product?</div>
+            <label><input type="checkbox" id="durability" name="durability" value="yes">Durability</label>
+            <label><input type="checkbox" id="ease-of-use" name="ease of use" value="yes">Ease of Use</label>
+            <label><input type="checkbox" id="performance" name="performance" value="yes">Performance</label>
+            <label><input type="checkbox" id="design" name="design" value="yes">Design</label>
+            <label>Written Review (optional)<textarea id="textarea" name="textarea"></textarea></label>
+        </fieldset>
+        <fieldset>
+            <legend>Post Review</legend>
+            <label>Your Name*<input type="text" name="fname" placeholder="Name Here" required></label>
+        </fieldset>
+        <input type="submit" value="Publish Review" id="counter">
+    </form>
+    <footer>
+        <p id="year"></p>
+        <p id="modified"></p>
+    </footer>
+</body>
+</html>
+
+

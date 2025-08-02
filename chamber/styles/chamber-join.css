@@ -1,0 +1,149 @@
+:root {
+    --black: #080809;
+    --mintgreen: #62BC8C;
+    --lightgreen: #459D6E;
+    --darkgreen: #27533C;
+}
+
+main {
+    display:grid;
+    grid-template-columns: 1.5fr 1fr;
+    column-gap: 1rem;
+    padding: 1rem;
+}
+
+.join-form {
+    background-color: var(--mintgreen);
+    width: 100%;
+    border: 2px solid var(--black);
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.join-form fieldset{
+    display: block;
+    border: 1px solid black;
+    margin: 1rem;
+}
+
+.join-form fieldset legend {
+    font-size: 1.3rem;
+    font-weight: 600;
+
+}
+
+.join-form fieldset label{
+    display: block;
+    color: var(--black);
+    font-size: 1.1rem;
+    margin: 2rem;
+
+}
+
+input[type="text"], input[type="email"], input[type="tel"],
+textarea,
+input[type="date"],
+select,
+input[type="number"] {
+        background-color: rgb(255, 255, 255);
+        display: block;
+        border: 1px solid gray;
+        border-radius: 6px;
+        padding: 0.75rem;
+        color: gray;
+        width: 100%;
+        max-width: 325px;
+        appearance: none;
+
+}
+
+input[type="radio"] {
+    margin-right: 6px;
+
+}
+.radio-padding {
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: var(--black);
+    padding: 1rem;
+    width: 100%;
+}
+
+#membership-info-boxes div{
+    display: block;
+    padding: 2rem;
+}
+
+
+
+#membership-info-boxes div {
+    background-color: var(--black);
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+#membership-info-boxes div button{
+    background-color: white;
+    text-align: center;
+    color: var(--black);
+    font-weight: 700;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    animation: pulse 1.5s infinite;
+    }
+
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 var(--darkgreen);
+    }
+
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 30px 10px var(--black);
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 var(--black);
+    }
+}
+
+/* Dialog Boxes */
+
+dialog {
+    background-color: #62BC8C;
+    width: 400px;
+    height: fit-content;
+    text-align: center;
+    
+}
+
+dialog button {
+    padding: 1rem;
+    background-color: var(--black);
+    color: white;
+    width: 150px;
+
+}
+dialog ul {
+    text-align: left;
+}
+dialog ul li{
+    text-align: left;
+    padding: 0.35rem;
+}
+
+dialog::backdrop {
+    background-color: rgb(0 0 0 / 50%);
+}
+

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce Home</title>
+    <meta name="author" content="Brandon Richards">
+    <meta name="description"
+        content="This is the chamber of commerce Home page Brandon has made for his school project. This website will serve as a resource hub for businesses in the city of Orrville. The Home page will display information about the town and the weather.">
+    <meta name="title" content="Orrville Chamber of Commerce Join Page">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/chamber-join.css">
+    <link rel="stylesheet" href="styles/chamber-smaller.css">
+    <link rel="stylesheet" href="styles/chamber-join-smaller.css">
+    <!-- <script src="scripts/home.js" defer></script> -->
+    <script src="scripts/join.js" defer></script>
+    <!-- <script src="scripts\chamber.js" defer></script> -->
+
+    <link rel="icon" href="images/favicon-chamber.ico">
+
+    <meta property="og:title" content="Brandon Richards's Chamber of Commerce Page">
+    <meta property="og:description"
+        content="A Chamber of Commcere page developed by a college student as practice for wdd231">
+    <meta property="og:url" content="https://larryson786.github.io/wdd231/chamber/directory.html">
+    <meta property="og:image" content="https://www.favicon.cc/?action=icon&file_id=1018837">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Samaritan&family=Open+Sans:wdth@75..100&family=Oswald:wght@200..700&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/ohio-logo.png" alt="Chamber of Commerce Logo" width="75">
+        <h1>Orrville Chamber of Commerce</h1>
+        <p></p>
+        <button class="hamburger" title="Open Navigation Menu"></button>
+        <nav class="navigation">
+            <a href="index.html" id="selected">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+            <a href="discover.html">Discover</a>
+        </nav>
+    </header>
+    <main>
+
+        <form class="join-form" method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Your Information</legend>
+                <label>First Name*<input type="text" id="fname" name="fname" autocomplete="given-name" required></label>
+                <label>Last Name*<input type="text" id="lname" name="lname" autocomplete="family-name" required></label>
+                <label>Email*<input type="email" id="email" name="email" autocomplete="email" required placeholder="you@gmail.com"></label>
+                <label>Mobile Phone*<input type="tel" id="phone" name="phone" autocomplete="tel" required placeholder="330-999-9999"></label>
+                <label>Title<input type="text" name="title" id="title" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7}"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Your Business Information</legend>
+                <label>Business Name*<input type="text" required name="organization" autocomplete="organization"></label>
+                <label class="radio-padding">Membership Level*
+                    <label><input type="radio" name="level" value="non-profit" required>Non-profit</label>
+                    <label><input type="radio" name="level" value="bronze" required>Bronze</label>
+                    <label><input type="radio" name="level" value="silver" required>Silver</label>
+                    <label><input type="radio" name="level" value="gold" required>Gold</label>
+                </label>
+                <label>Business Description <textarea name="description" id="description"></textarea></label>
+                <input type="hidden" id="timestamp" name="timestamp">
+                <input type="submit" value="Join the Orrville Chamber of Commerce" id="join-membership">
+            </fieldset>
+        </form>
+        <div id="membership-info-boxes">
+            <div>
+                <h3>Non-profit Membership</h3>
+                <button id="non-profit-button">Learn More</button>
+            </div>
+            <div>
+                <h3>Bronze Membership</h3>
+                <button id="bronze-button">Learn More</button>
+            </div>
+            <div>
+                <h3>Silver Membership</h3>
+                <button id="silver-button">Learn More</button>
+            </div>
+            <div>
+                <h3>Gold Membership</h3>
+                <button id="gold-button">Learn More</button>
+            </div>
+            <!-- Modals -->
+            <dialog id="non-profit">
+                <h2>Non-Profit Membership</h2>
+                <p>Cost: None</p>
+                <p>Must be considered non-profit</p>
+                <h3>Benefits:</h3>
+                <ul>
+                    <li>Free article in city newsletter every 6 months.</li>
+                    <li>New members get free article to introduce themselves</li>
+                    <li>Same discounts and promotions available to bronze level members</li>
+                </ul>
+                <button id="closeModalOne">Close</button>
+            </dialog>
+            <dialog id="bronze">
+                <h2>🥉 Bronze Membership</h2>
+                <p>Cost $150 annually</p>
+                <h3>Benefits:</h3>
+                <ul>
+                    <li>Free article in city newsletter every 6 months.</li>
+                    <li>New members get free article to introduce themselves</li>
+                    <li>Discounts and promotions offered to bronze level members</li>
+                </ul>
+                <button id="closeModalTwo">Close</button>
+            </dialog>
+            <dialog id="silver">
+                <h2>🥈 Silver Membership</h2>
+                <p>Cost $250 annually</p>
+                <h3>Benefits:</h3>
+                <ul>
+                    <li>Free article in city newsletter every 4 months.</li>
+                    <li>New members get free article to introduce themselves</li>
+                    <li>Employees of members receive offers for local events</li>
+                    <li>Discounts and promotions offered to Silver level members</li>
+                </ul>
+                <button id="closeModalThree">Close</button>
+            </dialog>
+            <dialog id="gold">
+                <h2>🥇 Gold Membership</h2>
+                <p>Cost: $450 Annually</p>
+                <h3>Benefits:</h3>
+                <ul>
+                    <li>Free article in city newsletter every 3 months.</li>
+                    <li>New members get free article to introduce themselves</li>
+                    <li>Members get free advertising for an event of their choice once per year (example: open house)</li>
+                    <li>Employees of members get free access to chamber promotions, events, and services</li>
+                    <li>Exclusive discounts and promotions for Gold level members</li>
+                </ul>
+                <button id="closeModalFour">Close</button>
+                
+            </dialog>
+
+        </div>
+
+
+
+
+    </main>
+    <footer>
+        <div>
+            <p id="bold-name">Orrville Chamber of Commerce</p>
+            <p>2255 West Market Street</p>
+            <p>Orrville, Ohio 44667</p>
+            <p>frontdesk@orrvillechamber.com</p>
+            <p>(330)568-5544</p>
+        </div>
+        <div class="social-logos">
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/brandon-richards-4a90bb35b/">
+                        <img src="images/linked-in.svg" alt="linkedin logo" loading="lazy" width="75">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/LarrySon786">
+                        <img src="images/github.svg" alt="github logo" loading="lazy" width="75">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/">
+                        <img src="images/facebook.svg" alt="Facebook Logo" loading="lazy" width="75">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p>WDD231 Class Project</p>
+            <p>Brandon Richards</p>
+            <p id="footer-information"></p>
+            <p id="lastModified"></p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
