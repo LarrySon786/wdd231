@@ -48,7 +48,7 @@
         </nav>
     </header>
     <main>
-
+        <h1>Join the Orrville Chamber of Commerce</h1>
         <form class="join-form" method="get" action="thankyou.html">
             <fieldset>
                 <legend>Your Information</legend>
@@ -62,10 +62,12 @@
                 <legend>Your Business Information</legend>
                 <label>Business Name*<input type="text" required name="organization" autocomplete="organization"></label>
                 <label class="radio-padding">Membership Level*
-                    <label><input type="radio" name="level" value="non-profit" required>Non-profit</label>
-                    <label><input type="radio" name="level" value="bronze" required>Bronze</label>
-                    <label><input type="radio" name="level" value="silver" required>Silver</label>
-                    <label><input type="radio" name="level" value="gold" required>Gold</label>
+                    <ul>
+                        <li><input type="radio" name="level" value="non-profit" required>Non-profit</li>
+                        <li><input type="radio" name="level" value="bronze" required>Bronze</li>
+                        <li><input type="radio" name="level" value="silver" required>Silver</li>
+                        <li><input type="radio" name="level" value="gold" required>Gold</li>
+                    </ul>
                 </label>
                 <label>Business Description <textarea name="description" id="description"></textarea></label>
                 <input type="hidden" id="timestamp" name="timestamp">
