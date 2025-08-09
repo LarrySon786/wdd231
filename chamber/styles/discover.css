@@ -1,0 +1,112 @@
+:root {
+    --black: #080809;
+    --mintgreen: #62BC8C;
+    --lightgreen: #459D6E;
+    --darkgreen: #27533C;
+}
+
+
+
+
+#visit-count {
+    background-color: gainsboro;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+button {
+    padding: 1rem;
+    background-color: var(--black);
+    color: white;
+    width: 100%;
+}
+
+button:hover {
+    font-weight: 700;
+}
+
+h2, address, figure, p {
+    text-align: center;
+}
+
+
+
+
+
+#discover-page div section {
+    background-color: var(--mintgreen);
+    margin: 2rem;
+    padding: 1rem;
+    border: 2px solid var(--black);
+    border-radius: 1rem;
+    display: grid;
+    grid-template-areas: 
+        "name"
+        "image"
+        "address"
+        "description"
+        "button";
+}
+
+#discover-page div section h2 {
+    grid-area: name;
+
+}
+#discover-page div section figure {
+    grid-area: image;
+
+}
+#discover-page div section address {
+    grid-area: address;
+
+}
+#discover-page div section p {
+    grid-area: description;
+
+}
+#discover-page div section button {
+    grid-area: button;
+
+}
+
+img {
+    border-radius: 1rem;
+}
+/* @media screen and (min-width: 320px) {
+   
+} */
+
+
+@media screen and (min-width: 640px) {
+    #discover-page div section {
+        grid-template-areas:
+            "image name"
+            "image address"
+            "image description"
+            "button button";
+    }
+}
+@media screen and (min-width: 1025px) {
+    main div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #discover-page div section {
+        grid-template-areas:
+            "image name"
+            "image description"
+            "address button";
+        place-items: center;
+        
+    }
+    address {
+        max-width: 50%;
+        place-content: center;
+    }
+
+    figure:hover {
+        opacity: 0.5;
+    }
+}

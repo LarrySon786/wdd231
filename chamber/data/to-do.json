@@ -1,0 +1,99 @@
+{
+    "events": [
+        {
+            "name": "Smuckers Taste Testing",
+            "address": {
+                "street": "333 Wadsworth Road",
+                "city": "Orrville",
+                "state": "Ohio",
+                "zip": "44667"},
+            "description": "Our friendly nieghborhood Smuckers loves to invite orrville residents to taste test their newest products! Earn $10 to come participate and provide your feedback to them!",
+            "image": "images/smucker.webp"
+        },
+        {
+            "name": "Johnson Woods",
+            "address": {
+                "street": "13240 Fox Lake Rd",
+                "city": "Marshallville",
+                "state": "Ohio",
+                "zip": "44645"
+            },
+            "description": "Enjoy a relaxing hike with your family through the woods! Johnson Woods is a beautiful mile long hike right outside of Orrville.",
+            "image": "images/johnson-woods.webp"
+        },
+        {
+            "name": "4th of July Fireworks",
+            "address": {
+                "street": "815 N Ella St",
+                "city": "Orrville",
+                "state": "Ohio",
+                "zip": "44667"
+            },
+            "description": "Don't miss our famous firework celebration for the 4th of July! Guests from all over the state come for our spectacular display!.",
+            "image": "images/orrville-fireworks.webp"
+        },
+        {
+            "name": "Orrville Parade",
+            "address": {
+                "street": "815 N Ella St",
+                "city": "Orrville",
+                "state": "Ohio",
+                "zip": "44667"
+            },
+            "description": "Every summer a parade comes through town with all sorts of fun for parents and kids alike. Bring your baskets because there will be lots of candy!.",
+            "image": "images/orrville-parade.webp"
+        },
+        {
+            "name": "Orr Pool",
+            "address": {
+                "street": "440 N Elm St",
+                "city": "Orrville",
+                "state": "Ohio",
+                "zip": "44667"
+            },
+            "description": "Orr pool is an excellent way to cool off on a hot summer day. Families with kidos of all ages can have fun together at our amazing city pool!",
+            "image": "images/orrville-pool.webp"
+        },
+        {
+            "name": "Orr Park",
+            "address": {
+                "street": "440 N Elm St",
+                "city": "Orrville",
+                "state": "Ohio",
+                "zip": "44667"
+            },
+            "description": "Equiped with pickle ball, basketball, baseball, and all the popular sports; Orr park is a top choice for local residents! We have playgrounds and all sorts of fun trails.",
+            "image": "images/orrville-park.webp"
+        },
+        {
+            "name": "Orrville Historical Society",
+            "address": {
+                "street": "365 W Market St",
+                "city": "Orrville",
+                "state": "Ohio",
+                "zip": "44667"
+            },
+            "description": "The Orrville historical society offers fasinating tours of our towns great history! They also hold their own events throughout the year.",
+            "image": "images/museum.webp"
+        },
+        {
+            "name": "3D Printing Classes",
+            "address": {
+                "street": "1901 Smucker Rd",
+                "city": "Orrville",
+                "state": "Ohio",
+                "zip": "44667"
+            },
+            "description": "Our favorite professors from the University of Akron's Wayne College hold 3D printing classes for rising creators! You and your kids are all able to learn how to 3D print.",
+            "image": "images/3d-printing.webp"
+        }
+    ]
+}
+
+
+
+
+
+
+
+
