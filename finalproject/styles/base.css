@@ -1,0 +1,131 @@
+:root {
+    --darkblue: #00458b;
+    --lightblue: #99ddff;
+    --teal: #3fd2c7;
+}
+
+/* Header */
+
+header {
+    padding: 1rem;
+    font-family: poppins;
+    background-color: #00458b;
+    display: grid;
+    grid-template-areas: 
+    "logo name name name name"
+    "logo navigation navigation navigation navigation";
+}
+
+header h1 {
+    grid-area: name;
+    text-align: left;
+    color: white;
+
+}
+
+header img {
+    grid-area: logo;
+}
+
+header nav {
+    grid-area: navigation;
+    color: white;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: -1rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#navigation a:hover {
+    background-color: darkblue;
+    margin-bottom: -1rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#selected {
+    background-color: darkblue;
+    margin-bottom: -1rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+/* Main */
+
+/* Hero Image */
+
+#hero {
+    max-width: 100%;
+    position: relative;
+}
+
+#hero img {
+    max-width: 100%;
+    /* opacity: 0.6; */
+}
+
+#hero h2 {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 3rem;
+    max-width: 300px;
+    background-color: var(--teal);
+    opacity: 0.75;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    opacity: 0.6;
+    border: 5px solid var(--lightblue);
+}
+
+/* Home Page About us */
+main {
+    /* background-color: var(--lightblue); */
+}
+
+#about-us {
+    background-color: var(--lightblue);
+    margin: 1rem;
+    display: grid;
+    grid-template-areas: 
+    "image heading"
+    "image description"
+    "image description"
+    "image description";
+    border: 9px solid var(--darkblue)
+}
+
+#about-us img {
+    width:100%;
+    max-width: 500px;
+    grid-area: image;
+    border: 5px solid var(--darkblue);
+    place-content: center;
+}
+#about-us h3 {
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5rem;
+    font-family: poppins;
+}
+
+#about-us p {
+    text-align: center;
+    padding: 1.5rem;
+    font-family: poppins;
+}
+

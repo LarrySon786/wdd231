@@ -1,0 +1,26 @@
+
+
+
+
+Site Name – Travel Made Easy
+Reason – The purpose of this website is to allow users to sign up for vacations. They will have easy access to all the information that they need. 
+
+Scenarios
+1	Where would be a good place to go on vacation?
+2	What can I do in _____ (vacation place’s name)
+3	What Hotels Could we stay at?
+4	When Could I leave?
+5	How much would it cost?
+
+Color Schemes:
+-	#00458b – deep blue
+-	#99ddff – sky blue
+-	#3fd2c7 – light teal
+Color Scheme was selected to be kind of like the sky’s colors (since they fly on vacation)
+
+Fonts:
+-	Futura
+-	Poppins
+-	Helvica
+
+Wire Frame pages are under the images folder
