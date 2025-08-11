@@ -1,0 +1,989 @@
+{
+    "destinations": [
+        {
+            "name": "Kyoto, Japan",
+            "image": "images/kyoto.webp",
+            "airport": {
+                "name": "Kansai International Airport (KIX)",
+                "address": "1 Senshukukokita, Izumisano, Osaka 549-0013, Japan",
+                "phone": "+81-72-455-2500"
+            },
+            "hotel": {
+                "name": "The Ritz-Carlton Kyoto",
+                "address": "605-0052 Kyoto, Nakagyo-ku, Kamogawa Nijo - ohashi Higashi 400",
+                "phone": "+81-75-342-0055"
+            },
+            "top_activities": [
+                {
+                    "name": "Fushimi Inari Shrine",
+                    "description": "Famous for its thousands of vibrant red torii gates leading into wooded Mt. Inari trails.",
+                    "address": "68 Fukakusa Yabunouchi-cho, Fushimi-ku, Kyoto City 612-0882, Japan",
+                    "phone": "075-641-7331"
+                },
+                {
+                    "name": "Kinkaku-ji (Golden Pavilion)",
+                    "description": "Zen temple lavishly covered in gold leaf reflecting over a serene pond.",
+                    "address": "1 Kinkakuji-cho, Kita-ku, Kyoto 603-8361, Japan",
+                    "phone": "075-461-0013"
+                },
+                {
+                    "name": "Arashiyama Bamboo Grove",
+                    "description": "Magical walkway through towering bamboo—especially tranquil early in the morning.",
+                    "address": "Arashiyama, Ukyo-ku, Kyoto City, Japan",
+                    "phone": "None"
+                },
+                {
+                    "name": "Gion District",
+                    "description": "Historic geisha district with traditional wooden teahouses and machiya architecture.",
+                    "address": "Gion, Higashiyama-ku, Kyoto City, Japan",
+                    "phone": "None"
+                },
+                {
+                    "name": "Kiyomizu-dera Temple",
+                    "description": "Iconic mountaintop wooden temple with sweeping views of Kyoto.",
+                    "address": "1-294 Kiyomizu, Higashiyama-ku, Kyoto City, Japan",
+                    "phone": "None"
+                },
+                {
+                    "name": "Nijo Castle",
+                    "description": "UNESCO site with ornately decorated interiors and “nightingale floors” that chirp underfoot.",
+                    "address": "541 Nijo-jocho, Nakagyo-ku, Kyoto City, Japan",
+                    "phone": "None"
+                },
+                {
+                    "name": "Philosopher’s Path",
+                    "description": "Picturesque stone path lined with cherry trees along a canal.",
+                    "address": "Between Ginkaku-ji and Nanzen-ji, Sakyo-ku, Kyoto City, Japan",
+                    "phone": "None"
+                },
+                {
+                    "name": "Tea ceremony experience",
+                    "description": "Participate in a traditional Japanese tea ceremony in an authentic setting.",
+                    "address": "None",
+                    "phone": "None"
+                },
+                {
+                    "name": "Day trip to Nara (Todai-ji & deer park)",
+                    "description": "Feed free-roaming deer and visit the Great Buddha at Todai-ji Temple.",
+                    "address": "Nara Park, Nara, Nara Prefecture, Japan",
+                    "phone": "None"
+                },
+                {
+                    "name": "Gekkeikan Sake Museum",
+                    "description": "Explore the history of sake in Fushimi and enjoy tastings.",
+                    "address": "5-6 Sakaimachi, Fushimi-ku, Kyoto 612-8043, Japan",
+                    "phone": "None"
+                }
+            ]
+        },
+        {
+            "name": "Paris, France",
+            "image": "images/paris.webp",
+            "airport": {
+                "name": "Charles de Gaulle Airport (CDG)",
+                "address": "95700 Roissy-en-France, France",
+                "phone": "+33 (0)1 72 41 24 31"
+            },
+            "hotel": {
+                "name": "Hôtel Plaza Athénée",
+                "address": "25 Avenue Montaigne, 75008 Paris, France",
+                "phone": "+33 (0)1 53 67 66 65"
+            },
+            "top_activities": [
+                {
+                    "name": "Eiffel Tower",
+                    "description": "Paris’s most iconic landmark with panoramic viewing decks.",
+                    "address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France",
+                    "phone": "+33 (0)8 92 70 12 39"
+                },
+                {
+                    "name": "Louvre Museum",
+                    "description": "World’s largest art museum and home of the Mona Lisa.",
+                    "address": "Rue de Rivoli, 75001 Paris, France",
+                    "phone": "+33 (0)1 40 20 53 17"
+                },
+                {
+                    "name": "Seine River cruise",
+                    "description": "Scenic boat ride highlighting Paris landmarks at twilight.",
+                    "address": "None",
+                    "phone": "None"
+                },
+                {
+                    "name": "Notre-Dame Cathedral",
+                    "description": "Gothic masterpiece with impressive stained glass rose windows.",
+                    "address": "6 Parvis Notre-Dame – Pl. Jean-Paul II, 75004 Paris, France",
+                    "phone": "None"
+                },
+                {
+                    "name": "Montmartre & Sacré-Cœur",
+                    "description": "Artist's quarter overlooking Paris, topped by a stunning basilica.",
+                    "address": "35 Rue du Chevalier de la Barre, 75018 Paris, France",
+                    "phone": "None"
+                },
+                {
+                    "name": "Musée d’Orsay",
+                    "description": "Impressionist art housed in a former Beaux-Arts railway station.",
+                    "address": "1 Rue de la Légion d'Honneur, 75007 Paris, France",
+                    "phone": "None"
+                },
+                {
+                    "name": "Luxembourg Gardens",
+                    "description": "Elegant gardens ideal for strolls, picnics, and people watching.",
+                    "address": "75006 Paris, France",
+                    "phone": "None"
+                },
+                {
+                    "name": "Arc de Triomphe & Champs-Élysées",
+                    "description": "Famed monument with sweeping views and grand avenue shopping.",
+                    "address": "Place Charles de Gaulle, 75008 Paris, France",
+                    "phone": "None"
+                },
+                {
+                    "name": "Palace of Versailles",
+                    "description": "Lavish palace and gardens reflecting French royal history (day trip).",
+                    "address": "Place d'Armes, 78000 Versailles, France",
+                    "phone": "None"
+                },
+                {
+                    "name": "Sainte-Chapelle",
+                    "description": "Gothic chapel renowned for its towering stained-glass windows.",
+                    "address": "8 Boulevard du Palais, 75001 Paris, France",
+                    "phone": "None"
+                }
+            ]
+        },
+        {
+            "name": "Santorini, Greece",
+            "image": "images/greece.webp",
+            "airport": {
+                "name": "Santorini International Airport (JTR)",
+                "address": "P.C. 84700, Monolithos, Santorini, Greece",
+                "phone": "+30 22860 28400"
+            },
+            "hotel": {
+                "name": "Canaves Oia Suites",
+                "address": "Main Street, Oia 847 02, Greece",
+                "phone": "+30 2286 071453"
+            },
+            "top_activities": [
+                {
+                    "name": "Akrotiri Archaeological Site",
+                    "description": "Minoan settlement frozen in volcanic ash with vivid frescoes.",
+                    "address": "Thera 847 00, Santorini, Greece",
+                    "phone": "+30 2286 081939"
+                },
+                {
+                    "name": "Museum of Prehistoric Thera",
+                    "description": "Frescoes, pottery and artifacts from Akrotiri excavations.",
+                    "address": "Thera 847 00, Santorini, Greece",
+                    "phone": "+30 2286 023217"
+                },
+                {
+                    "name": "Red Beach",
+                    "description": "Dramatic volcanic red cliffs rising above sienna-colored sand.",
+                    "address": "Near Akrotiri, Santorini 847 00, Greece",
+                    "phone": "None"
+                },
+                {
+                    "name": "Perissa Beach",
+                    "description": "Popular black-sand seaside with beachfront cafes and swim spots.",
+                    "address": "Perissa, Santorini 847 03, Greece",
+                    "phone": "None"
+                },
+                {
+                    "name": "Santo Wines Winery",
+                    "description": "Taste famed Assyrtiko wine with sweeping caldera views.",
+                    "address": "Fira, Santorini, Greece",
+                    "phone": "None"
+                },
+                {
+                    "name": "Fira Town & Archaeological Museum",
+                    "description": "Santorini’s lively capital with shops and preserved artifacts.",
+                    "address": "Fira, Santorini, Greece",
+                    "phone": "None"
+                },
+                {
+                    "name": "Pyrgos Village",
+                    "description": "Hilltop village offering quiet lanes and panoramic island views.",
+                    "address": "Pyrgos, Santorini, Greece",
+                    "phone": "None"
+                },
+                {
+                    "name": "Akrotiri Lighthouse",
+                    "description": "Atmospheric spot perfect for dramatic sunset views.",
+                    "address": "Akrotiri, Santorini, Greece",
+                    "phone": "None"
+                },
+                {
+                    "name": "Caldera Boat Tour",
+                    "description": "Cruise volcanic islets and soak in hot springs at sea level.",
+                    "address": "Departing from Fira or Oia ports, Santorini",
+                    "phone": "None"
+                },
+                {
+                    "name": "Island Walks & Photo Spots",
+                    "description": "Discover charms of Imerovigli or Emporio with scenic strolls.",
+                    "address": "Various locations across Santorini",
+                    "phone": "None"
+                }
+            ]
+        },
+        {
+            "name": "Bora Bora, French Polynesia",
+            "image": "images/bora-bora.webp",
+            "airport": {
+                "name": "Bora Bora Airport (Motu Mute)",
+                "address": "Motu Mute, Bora Bora, French Polynesia",
+                "phone": "+689 40 86 42 11"
+            },
+            "hotel": {
+                "name": "Four Seasons Resort Bora Bora",
+                "address": "Motu Tehotu, BP 547, Bora Bora 98730, French Polynesia",
+                "phone": "(689) 40 603 130"
+            },
+            "top_activities": [
+                {
+                    "name": "Lagoonarium",
+                    "description": "Swim with tropical fish, rays and sharks in an open lagoon habitat.",
+                    "address": "PO Box 234, Bora Bora 98730, French Polynesia",
+                    "phone": "+689 67 71 34"
+                },
+                {
+                    "name": "Matira Beach",
+                    "description": "Iconic white-sand public beach with crystalline waters.",
+                    "address": "Matira Beach, Bora Bora, French Polynesia",
+                    "phone": "None"
+                },
+                {
+                    "name": "Shark & Ray Snorkel Tour",
+                    "description": "Guided excursion into lagoon ecosystem with marine encounters.",
+                    "address": "Departs from main island piers, Bora Bora",
+                    "phone": "None"
+                },
+                {
+                    "name": "Helicopter Scenic Tour",
+                    "description": "View Bora Bora’s lagoon and Mount Otemanu from above.",
+                    "address": "Departing from Bora Bora Airport or local heliports",
+                    "phone": "None"
+                },
+                {
+                    "name": "Guided Island Hike",
+                    "description": "Learn about local legends and hidden views on foot with a guide.",
+                    "address": "Local guiding service in Bora Bora",
+                    "phone": "None"
+                },
+                {
+                    "name": "Bora Bora Bike Ride",
+                    "description": "Leisurely cycle around the island with scenic and cultural stops.",
+                    "address": "Bike rental locations in Vaitape or resorts",
+                    "phone": "None"
+                },
+                {
+                    "name": "Ancient Marae Temples",
+                    "description": "Explore sacred open-air stone temple structures on the coast.",
+                    "address": "West coast near Faanui, Bora Bora",
+                    "phone": "+689 67 76 36"
+                },
+                {
+                    "name": "Starlit Beach Relaxation",
+                    "description": "Lay back and enjoy a starry night on the beach or veranda.",
+                    "address": "Resort beachfront or overwater bungalow areas",
+                    "phone": "None"
+                },
+                {
+                    "name": "Bloody Mary’s Restaurant",
+                    "description": "Casual beachfront eatery popular for fresh seafood and vibe.",
+                    "address": "Near Vaitape, Bora Bora, French Polynesia",
+                    "phone": "None"
+                },
+                {
+                    "name": "Vaitape Village Stroll",
+                    "description": "Browse shops and cafes in the main village with lagoon views.",
+                    "address": "Vaitape, western coast of Bora Bora",
+                    "phone": "None"
+                }
+            ]
+        },
+        {
+            "name": "Amalfi Coast, Italy",
+            "image": "images/Amalfi.webp",
+            "airport": {
+                "name": "Naples International Airport (NAP)",
+                "address": "Via Galileo Ferraris 1, 80142 Napoli (NA), Italy",
+                "phone": "+39 081 7894111"
+            },
+            "hotel": {
+                "name": "Le Sirenuse, Positano",
+                "address": "Via Cristoforo Colombo 30, 84017 Positano (SA), Italy",
+                "phone": "+39 089 875066"
+            },
+            "top_activities": [
+                {
+                    "name": "Positano Beach",
+                    "description": "Pebble cove framed by pastel cliffside houses.",
+                    "address": "Spiaggia Grande, Positano, Campania, Italy",
+                    "phone": "None"
+                },
+                {
+                    "name": "Amalfi Cathedral",
+                    "description": "St. Andrew’s 11th-century cathedral with ornate facade.",
+                    "address": "Piazza Duomo, Amalfi, Campania, Italy",
+                    "phone": "None"
+                },
+                {
+                    "name": "Villa Cimbrone Gardens",
+                    "description": "Terraced gardens in Ravello overlooking the coastline.",
+                    "address": "Via Santa Chiara, 8, 84010 Ravello SA, Italy",
+                    "phone": "None"
+                },
+                {
+                    "name": "Blue Grotto boat tour",
+                    "description": "Swim or boat into the fluorescent-blue sea cave on Capri.",
+                    "address": "Capri island, depart from Amalfi/Positano",
+                    "phone": "None"
+                },
+                {
+                    "name": "Path of the Gods hike",
+                    "description": "Dramatic coastal trail with panoramic views of the Amalfi coast.",
+                    "address": "Starts near Nocelle above Positano, Italy",
+                    "phone": "None"
+                },
+                {
+                    "name": "Fiordo di Furore",
+                    "description": "Hidden fjord with small beach wedged beneath cliffs.",
+                    "address": "Furore, Campania, Italy",
+                    "phone": "None"
+                },
+                {
+                    "name": "Limoncello Tasting",
+                    "description": "Try the region’s famous lemon liqueur at local producers.",
+                    "address": "Various lemon farms and shops along Amalfi Coast",
+                    "phone": "None"
+                },
+                {
+                    "name": "Marina Grande Dining",
+                    "description": "Seaside restaurants serving fresh seafood in Positano.",
+                    "address": "Marina Grande, Positano, Campania, Italy",
+                    "phone": "None"
+                },
+                {
+                    "name": "Museo della Carta (Paper Museum)",
+                    "description": "Historic site showcasing centuries-old Amalfi paper-making.",
+                    "address": "Piazza Municipio, Amalfi, Campania, Italy",
+                    "phone": "None"
+                },
+                {
+                    "name": "Amalfi Coast Drive",
+                    "description": "Iconic coastal drive past cliffside towns and azure seas.",
+                    "address": "SS163 road, Amalfi Coast, Campania, Italy",
+                    "phone": "None"
+                }
+            ]
+        },
+        {
+            "name": "Bali, Indonesia",
+            "image": "images/bali.webp",
+            "airport": {
+                "name": "Ngurah Rai International Airport (DPS)",
+                "address": "Jl. Raya Gusti Ngurah Rai, Denpasar, Bali 80225, Indonesia",
+                "phone": "+62 361 9357111"
+            },
+            "hotel": {
+                "name": "Four Seasons Resort Bali at Sayan",
+                "address": "Sayan, Ubud, Gianyar, Bali 80571, Indonesia",
+                "phone": "+62 361 977577"
+            },
+            "top_activities": [
+                {
+                    "name": "Ubud Monkey Forest",
+                    "description": "Sacred sanctuary populated by playful long-tailed macaques.",
+                    "address": "Jl. Monkey Forest, Ubud, Gianyar, Bali, Indonesia",
+                    "phone": "None"
+                },
+                {
+                    "name": "Tegallalang Rice Terraces",
+                    "description": "Famous tiered rice fields with scenic island vistas.",
+                    "address": "Tegallalang, Ubud, Gianyar, Bali, Indonesia",
+                    "phone": "None"
+                },
+                {
+                    "name": "Pura Besakih (Mother Temple)",
+                    "description": "Largest and holiest Hindu temple complex in Bali.",
+                    "address": "Besakih, Karangasem, Bali, Indonesia",
+                    "phone": "None"
+                },
+                {
+                    "name": "Mount Batur Sunrise Trek",
+                    "description": "Early morning climb to catch the sunrise over volcanic crater.",
+                    "address": "Mount Batur, Bali, Indonesia",
+                    "phone": "None"
+                },
+                {
+                    "name": "Seminyak & Canggu Beach Clubs",
+                    "description": "Stylish beachfront lounging, dining and sunset cocktails.",
+                    "address": "Seminyak/Canggu, Bali, Indonesia",
+                    "phone": "None"
+                },
+                {
+                    "name": "Balinese Cooking Class",
+                    "description": "Hands-on lesson to prepare traditional local dishes.",
+                    "address": "Ubud or local culinary schools, Bali",
+                    "phone": "None"
+                },
+                {
+                    "name": "Tirta Empul Temple",
+                    "description": "Holy spring used for purification rituals in Balinese culture.",
+                    "address": "Tirta Empul, Tampaksiring, Bali, Indonesia",
+                    "phone": "None"
+                },
+                {
+                    "name": "Uluwatu Temple & Kecak Dance",
+                    "description": "Dramatic cliffside temple paired with evocative dance at sunset.",
+                    "address": "Uluwatu, Pecatu, Bali, Indonesia",
+                    "phone": "None"
+                },
+                {
+                    "name": "Nusa Penida Snorkeling/Diving",
+                    "description": "Marine exploration to see manta rays and crystal waters.",
+                    "address": "Nusa Penida island, Bali, Indonesia (via boat from Sanur)",
+                    "phone": "None"
+                },
+                {
+                    "name": "Balinese Massage & Spa",
+                    "description": "Traditional healing treatments in tranquil spa settings.",
+                    "address": "Various spas across Bali resorts",
+                    "phone": "None"
+                }
+            ]
+        },
+        {
+            "name": "Machu Picchu, Peru",
+            "image": "images/machu.webp",
+            "airport": {
+                "name": "Alejandro Velasco Astete International Airport (CUZ)",
+                "address": "Av. Presidente Rodríguez Ballón s/n, Cusco 08000, Peru",
+                "phone": "+51 84 581515"
+            },
+            "hotel": {
+                "name": "Belmond Sanctuary Lodge",
+                "address": "On the edge of Machu Picchu Archaeological Park, Peru",
+                "phone": "+51 84 211999"
+            },
+            "top_activities": [
+                {
+                    "name": "Machu Picchu guided tour",
+                    "description": "Explore the ancient Incan city with expert guide.",
+                    "address": "Machu Picchu Archaeological Park, Peru",
+                    "phone": "None"
+                },
+                {
+                    "name": "Huayna Picchu ascent",
+                    "description": "Steep trail up for dramatic views over the ruins.",
+                    "address": "Huayna Picchu, within Machu Picchu site",
+                    "phone": "None"
+                },
+                {
+                    "name": "Temple of the Sun",
+                    "description": "Incan sanctuary aligned for astronomical observations.",
+                    "address": "Within Machu Picchu ruins, Peru",
+                    "phone": "None"
+                },
+                {
+                    "name": "Inca Bridge Trail",
+                    "description": "Short hike to the ancient protected bridge over cliffs.",
+                    "address": "Within Machu Picchu site, Peru",
+                    "phone": "None"
+                },
+                {
+                    "name": "Machu Picchu Mountain Hike",
+                    "description": "High-altitude hike with expansive views over the citadel.",
+                    "address": "Machu Picchu Mountain trail, Peru",
+                    "phone": "None"
+                },
+                {
+                    "name": "Aguas Calientes Market",
+                    "description": "Local town market with crafts and souvenirs.",
+                    "address": "Aguas Calientes, Peru",
+                    "phone": "None"
+                },
+                {
+                    "name": "Ollantaytambo ruins tour",
+                    "description": "Explore another major Inca fortress en route.",
+                    "address": "Ollantaytambo, Sacred Valley, Peru",
+                    "phone": "None"
+                },
+                {
+                    "name": "Aguas Calientes hot springs",
+                    "description": "Relax in thermal pools after exploring the ruins.",
+                    "address": "Aguas Calientes, Peru",
+                    "phone": "None"
+                },
+                {
+                    "name": "Traditional weaving demo",
+                    "description": "See local artisans demonstrate Andean weaving techniques.",
+                    "address": "Aguas Calientes craft shops, Peru",
+                    "phone": "None"
+                },
+                {
+                    "name": "Sacred Valley tour",
+                    "description": "Visit Pisac, markets, and cultural highlights of the valley.",
+                    "address": "Sacred Valley, near Cusco, Peru",
+                    "phone": "None"
+                }
+            ]
+        },
+        {
+            "name": "Queenstown, New Zealand",
+            "image": "images/queenstown.webp",
+            "airport": {
+                "name": "Queenstown Airport (ZQN)",
+                "address": "Cnr Shotover & Hawthorne Drive, Frankton, Queenstown 9300, New Zealand",
+                "phone": "+64 3 450 9238"
+            },
+            "hotel": {
+                "name": "Matakauri Lodge",
+                "address": "135 Arthurs Point Road, Arthur’s Point, Queenstown 9371, New Zealand",
+                "phone": "+64 3 442 8488"
+            },
+            "top_activities": [
+                {
+                    "name": "Shotover Jet boat ride",
+                    "description": "Thrilling high-speed jet ride through narrow canyons.",
+                    "address": "Shotover River, Queenstown, New Zealand",
+                    "phone": "None"
+                },
+                {
+                    "name": "Skyline Gondola & Luge",
+                    "description": "Panoramic gondola ride followed by fun luge run.",
+                    "address": "Brecon St, Queenstown 9300, New Zealand",
+                    "phone": "None"
+                },
+                {
+                    "name": "Kawarau Bridge Bungee",
+                    "description": "Leap from the world’s first commercial bungee platform.",
+                    "address": "Kawarau Bridge, near Queenstown, NZ",
+                    "phone": "None"
+                },
+                {
+                    "name": "Milford Sound cruise",
+                    "description": "Scenic day trip cruise through stunning fjords.",
+                    "address": "Milford Sound, Fiordland, NZ",
+                    "phone": "None"
+                },
+                {
+                    "name": "Ben Lomond hike",
+                    "description": "Rewarding climb with sweeping alpine summit views.",
+                    "address": "Ben Lomond Track, Queenstown, New Zealand",
+                    "phone": "None"
+                },
+                {
+                    "name": "Gibbston Valley wine tasting",
+                    "description": "Vineyard tours and Pinor Noir tastings.",
+                    "address": "Gibbston Valley, near Queenstown, NZ",
+                    "phone": "None"
+                },
+                {
+                    "name": "Lake Wakatipu water sports",
+                    "description": "Jet skiing or paddleboarding on a scenic alpine lake.",
+                    "address": "Lake Wakatipu, Queenstown, New Zealand",
+                    "phone": "None"
+                },
+                {
+                    "name": "Glacier helicopter tour",
+                    "description": "Fly to remote glaciers and land for panoramic views.",
+                    "address": "Departing from Queenstown heliport",
+                    "phone": "None"
+                },
+                {
+                    "name": "Onsen Hot Pools",
+                    "description": "Private alpine hot tub with lake vistas.",
+                    "address": "Onsen Hot Pools, Brecon Street, Queenstown, NZ",
+                    "phone": "None"
+                },
+                {
+                    "name": "Glenorchy drive",
+                    "description": "Scenic lakeside drive to filming locations of LOTR.",
+                    "address": "Queenstown to Glenorchy, NZ",
+                    "phone": "None"
+                }
+            ]
+        },
+        {
+            "name": "Cape Town, South Africa",
+            "image": "images/cape-town.webp",
+            "airport": {
+                "name": "Cape Town International Airport (CPT)",
+                "address": "Matroosfontein, Cape Town, 7490, South Africa",
+                "phone": "+27 21 937 1200"
+            },
+            "hotel": {
+                "name": "One&Only Cape Town",
+                "address": "Dock Road, V&A Waterfront, Cape Town, 8002, South Africa",
+                "phone": "+27 21 431 5888"
+            },
+            "top_activities": [
+                {
+                    "name": "Table Mountain (cable car hike)",
+                    "description": "Ride or hike to flat-topped summit for sweeping views.",
+                    "address": "Table Mountain Aerial Cableway, Tafelberg Road, Cape Town, South Africa",
+                    "phone": "None"
+                },
+                {
+                    "name": "Robben Island tour",
+                    "description": "Ferry trip to prison island where Nelson Mandela was held.",
+                    "address": "Depart from V&A Waterfront, Cape Town, South Africa",
+                    "phone": "None"
+                },
+                {
+                    "name": "Cape Winelands tour",
+                    "description": "Tasting at vineyards in Stellenbosch or Franschhoek.",
+                    "address": "Stellenbosch / Franschhoek, Western Cape, South Africa",
+                    "phone": "None"
+                },
+                {
+                    "name": "V&A Waterfront",
+                    "description": "Shopping, dining, and cultural attractions by the harbor.",
+                    "address": "V&A Waterfront, Cape Town, South Africa",
+                    "phone": "None"
+                },
+                {
+                    "name": "Chapman’s Peak Drive",
+                    "description": "Dramatic coastal drive with cliff-edge views.",
+                    "address": "Chapman’s Peak Drive, near Cape Town, South Africa",
+                    "phone": "None"
+                },
+                {
+                    "name": "Cape Point & Boulders Beach",
+                    "description": "Visit penguin colony and scenic southwestern cape.",
+                    "address": "Cape Peninsula, Western Cape, South Africa",
+                    "phone": "None"
+                },
+                {
+                    "name": "Kirstenbosch Gardens",
+                    "description": "Botanical showcase set against Table Mountain slopes.",
+                    "address": "Kirstenbosch, Rhodes Drive, Cape Town, South Africa",
+                    "phone": "None"
+                },
+                {
+                    "name": "Shark cage diving",
+                    "description": "Day-trip from Gansbaai to encounter great whites safely.",
+                    "address": "Gansbaai, Western Cape, South Africa",
+                    "phone": "None"
+                },
+                {
+                    "name": "Bo-Kaap walking tour",
+                    "description": "Explore vibrant houses and cultural heritage neighborhood.",
+                    "address": "Bo-Kaap, Cape Town, South Africa",
+                    "phone": "None"
+                },
+                {
+                    "name": "Signal Hill sunset",
+                    "description": "Watch over cityscape and ocean with sundowners at dusk.",
+                    "address": "Signal Hill Road, Cape Town, South Africa",
+                    "phone": "None"
+                }
+            ]
+        },
+        {
+            "name": "Dubai, UAE",
+            "image": "images/dubai.webp",
+            "airport": {
+                "name": "Dubai International Airport (DXB)",
+                "address": "Dubai – United Arab Emirates",
+                "phone": "+971 600 555555"
+            },
+            "hotel": {
+                "name": "Burj Al Arab",
+                "address": "Jumeirah St, Umm Suqeim 3, Dubai, UAE",
+                "phone": "+971 4 301 7777"
+            },
+            "top_activities": [
+                {
+                    "name": "Burj Khalifa Observation Deck",
+                    "description": "Visit the world’s tallest tower for sky-high views.",
+                    "address": "1 Sheikh Mohammed bin Rashid Blvd, Dubai, UAE",
+                    "phone": "None"
+                },
+                {
+                    "name": "Dubai Mall & Aquarium",
+                    "description": "Massive retail complex featuring a huge aquarium.",
+                    "address": "Downtown Dubai, UAE",
+                    "phone": "None"
+                },
+                {
+                    "name": "Desert safari",
+                    "description": "Dune bashing, camel riding, and BBQ in desert camp.",
+                    "address": "Desert outskirts of Dubai",
+                    "phone": "None"
+                },
+                {
+                    "name": "Dubai Creek abra ride",
+                    "description": "Traditional wooden boat shuttle across the creek.",
+                    "address": "Dubai Creek, Deira/Dubai Old Town areas",
+                    "phone": "None"
+                },
+                {
+                    "name": "Jumeirah Beach & JBR Walk",
+                    "description": "Golden sands with seaside shopping and eateries.",
+                    "address": "Jumeirah Beach and JBR Walk, Dubai, UAE",
+                    "phone": "None"
+                },
+                {
+                    "name": "Gold & Spice Souks",
+                    "description": "Traditional markets with glittering spices and jewelry.",
+                    "address": "Deira, Dubai, UAE",
+                    "phone": "None"
+                },
+                {
+                    "name": "Dubai Fountain show",
+                    "description": "Musical fountain light show at the base of Burj Khalifa.",
+                    "address": "Dubai Fountain, Downtown Dubai, UAE",
+                    "phone": "None"
+                },
+                {
+                    "name": "Atlantis Aquaventure",
+                    "description": "Thrilling waterpark on Palm Jumeirah with slides and rides.",
+                    "address": "Atlantis The Palm, Palm Jumeirah, Dubai, UAE",
+                    "phone": "None"
+                },
+                {
+                    "name": "Museum of the Future",
+                    "description": "A futuristic experience showcasing emerging tech and design.",
+                    "address": "Sheikh Zayed Road, Dubai, UAE",
+                    "phone": "None"
+                },
+                {
+                    "name": "The View at The Palm",
+                    "description": "Observation platform with views over Palm Jumeirah.",
+                    "address": "Nakheel Mall, Palm Jumeirah, Dubai, UAE",
+                    "phone": "None"
+                }
+            ]
+        },
+        {
+            "name": "Seychelles",
+            "airport": {
+                "name": "Seychelles International Airport (SEZ)",
+                "address": "Victoria, Mahé, Seychelles",
+                "phone": "+248 438 11 11"
+            },
+            "hotel": {
+                "name": "Constance Lemuria, Praslin",
+                "address": "Anse Kerlan, Praslin Island, Seychelles",
+                "phone": "+248 4 280 222"
+            },
+            "top_activities": [
+                {
+                    "name": "Anse Lazio Beach",
+                    "description": "Pristine white-sand beach consistently rated among world’s best.",
+                    "address": "Anse Lazio, Praslin, Seychelles",
+                    "phone": "None"
+                },
+                {
+                    "name": "Anse Georgette Snorkeling",
+                    "description": "Clear reef waters ideal for snorkeling near La Digue.",
+                    "address": "Anse Georgette, Praslin, Seychelles",
+                    "phone": "None"
+                },
+                {
+                    "name": "Vallée de Mai",
+                    "description": "UNESCO reserve home to the rare Coco de Mer palm.",
+                    "address": "Praslin, Seychelles",
+                    "phone": "None"
+                },
+                {
+                    "name": "La Digue Island boat trip",
+                    "description": "Visit laid-back island via ferry or boat from Praslin or Mahé.",
+                    "address": "Depart from Praslin to La Digue, Seychelles",
+                    "phone": "None"
+                },
+                {
+                    "name": "Morne Seychellois hike",
+                    "description": "Climb the highest peak for panoramic island views.",
+                    "address": "Morne Seychellois National Park, Mahé, Seychelles",
+                    "phone": "None"
+                },
+                {
+                    "name": "Curieuse Island (tortoise sanctuary)",
+                    "description": "Day trip to island populated by giant Aldabra tortoises.",
+                    "address": "Curieuse Island, Seychelles",
+                    "phone": "None"
+                },
+                {
+                    "name": "Luxury sailing cruise",
+                    "description": "Sunset or full-day charter across Seychelles’ inner islands.",
+                    "address": "Depart from various Seychelles harbors",
+                    "phone": "None"
+                },
+                {
+                    "name": "Moyenne Island visit",
+                    "description": "Small national park island ideal for wildlife encounters.",
+                    "address": "Moyenne Island, Seychelles",
+                    "phone": "None"
+                },
+                {
+                    "name": "Spa day at resort",
+                    "description": "Indulge in tropical spa treatments with ocean views.",
+                    "address": "At resort spa facilities, e.g., Constance Lemuria",
+                    "phone": "None"
+                },
+                {
+                    "name": "Creole cooking class",
+                    "description": "Learn local cuisine in immersive resort classes.",
+                    "address": "Resort culinary venues, Seychelles",
+                    "phone": "None"
+                }
+            ]
+        },
+        {
+            "name": "Petra, Jordan",
+            "airport": {
+                "name": "Queen Alia International Airport (AMM)",
+                "address": "Zizyeh, Amman, Jordan",
+                "phone": "+962 6 510 0000"
+            },
+            "hotel": {
+                "name": "Mövenpick Resort Petra",
+                "address": "Petra Archaeological Park, Wadi Musa, Jordan",
+                "phone": "+962 3 215 5000"
+            },
+            "top_activities": [
+                {
+                    "name": "Al-Khazneh (The Treasury)",
+                    "description": "Gorgeous carved rock façade Petra’s signature monument.",
+                    "address": "Petra Archaeological Park, Wadi Musa, Jordan",
+                    "phone": "None"
+                },
+                {
+                    "name": "The Monastery (Ad-Deir)",
+                    "description": "Massive cliff-carved monument reached via steep climb.",
+                    "address": "Upper Petra, Jordan",
+                    "phone": "None"
+                },
+                {
+                    "name": "The Siq",
+                    "description": "Narrow gorge serving as dramatic entrance to Petra.",
+                    "address": "Petra Archaeological Park, Wadi Musa, Jordan",
+                    "phone": "None"
+                },
+                {
+                    "name": "Royal Tombs",
+                    "description": "Grand cliff-face necropolis with elaborate facades.",
+                    "address": "Petra Archaeological Park, Wadi Musa, Jordan",
+                    "phone": "None"
+                },
+                {
+                    "name": "High Place of Sacrifice",
+                    "description": "Ritual site offering sweeping views over Petra.",
+                    "address": "Jebel Madbah, Petra, Jordan",
+                    "phone": "None"
+                },
+                {
+                    "name": "Temple of the Winged Lions",
+                    "description": "Nabataean temple with striking stucco details.",
+                    "address": "Sacred Quarter, Petra Archaeological Park",
+                    "phone": "None"
+                },
+                {
+                    "name": "Qasr al-Bint",
+                    "description": "Prominent freestanding temple near the Siq entrance.",
+                    "address": "Near Colonnaded Street, Petra Archaeological Park",
+                    "phone": "None"
+                },
+                {
+                    "name": "Byzantine Church",
+                    "description": "Contains well-preserved 5th-century mosaics.",
+                    "address": "Near Colonnaded Street, Petra, Jordan",
+                    "phone": "None"
+                },
+                {
+                    "name": "Little Petra",
+                    "description": "Smaller archaeological site with fewer crowds.",
+                    "address": "Siq al-Barid, near Petra, Jordan",
+                    "phone": "None"
+                },
+                {
+                    "name": "Petra Museum",
+                    "description": "Exhibits artifacts from excavations around Petra.",
+                    "address": "Visitor Center, Petra Archaeological Park, Wadi Musa, Jordan",
+                    "phone": "None"
+                }
+            ]
+        },
+        {
+            "name": "New York City, USA",
+            "airport": {
+                "name": "John F. Kennedy International Airport (JFK)",
+                "address": "Queens, NY 11430, United States",
+                "phone": "+1 718-244-4444"
+            },
+            "hotel": {
+                "name": "The Plaza Hotel",
+                "address": "768 5th Avenue, New York, NY 10019, USA",
+                "phone": "+1 212-759-3000"
+            },
+            "top_activities": [
+                {
+                    "name": "Central Park",
+                    "description": "Huge urban park with lakes, statues, walking trails, and boat rentals.",
+                    "address": "Central Park, New York, NY, USA",
+                    "phone": "None"
+                },
+                {
+                    "name": "Statue of Liberty & Ellis Island",
+                    "description": "Iconic symbol of freedom—accessible by ferry tours.",
+                    "address": "Liberty Island, New York Harbor, USA",
+                    "phone": "None"
+                },
+                {
+                    "name": "The Metropolitan Museum of Art (The Met)",
+                    "description": "One of the world's largest art museums with an encyclopedic collection.",
+                    "address": "1000 5th Avenue, New York, NY 10028, USA",
+                    "phone": "None"
+                },
+                {
+                    "name": "Broadway Show (Times Square)",
+                    "description": "Live theatre performances in the world-renowned district.",
+                    "address": "Times Square, Manhattan, New York, NY, USA",
+                    "phone": "None"
+                },
+                {
+                    "name": "Empire State Building",
+                    "description": "Historic skyscraper with iconic observation decks.",
+                    "address": "20 W 34th Street, New York, NY 10001, USA",
+                    "phone": "None"
+                },
+                {
+                    "name": "9/11 Memorial & Museum",
+                    "description": "Tribute to the lives lost and museum documenting 9/11 events.",
+                    "address": "180 Greenwich Street, New York, NY 10007, USA",
+                    "phone": "None"
+                },
+                {
+                    "name": "Brooklyn Bridge walk",
+                    "description": "Iconic Bridge with pedestrian path and skyline views.",
+                    "address": "Brooklyn Bridge, New York, NY, USA",
+                    "phone": "None"
+                },
+                {
+                    "name": "Chelsea Market & High Line",
+                    "description": "Indoor food hall plus elevated urban park along former railway.",
+                    "address": "Chelsea Market: 75 9th Avenue; High Line: Manhattan, NY, USA",
+                    "phone": "None"
+                },
+                {
+                    "name": "Museum of Modern Art (MoMA)",
+                    "description": "World-class collection of modern and contemporary art.",
+                    "address": "11 W 53rd Street, New York, NY 10019, USA",
+                    "phone": "None"
+                },
+                {
+                    "name": "Greenwich Village & SoHo",
+                    "description": "Charming neighborhoods known for cobblestone streets, boutiques, and culture.",
+                    "address": "Greenwich Village / SoHo, Manhattan, New York, NY, USA",
+                    "phone": "None"
+                }
+            ]
+        }
+    ]
+}

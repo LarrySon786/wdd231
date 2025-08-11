@@ -129,3 +129,81 @@ main {
     font-family: poppins;
 }
 
+
+/* ********************Vacations Explore Page*************** */
+
+
+#explore-div {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* column-gap: 1rem;
+    row-gap: 1rem; */
+    font-family: poppins;
+}
+
+#explore-div section {
+    display: grid;
+    grid-template-areas: 
+    "image header header"
+    "image learnButton learnButton"
+    "image learnButton learnButton";
+    background-color: whitesmoke;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 3rem;
+    box-shadow: 5px 5px 10px gray;
+    text-align: left;
+    margin: 1rem;
+
+}
+#explore-div section img {
+    grid-area: image;
+    width: 100%;
+    max-width: 350px;
+    margin: 1rem;
+    border-radius: 3rem;
+    border: 4px solid var(--lightblue)
+}
+#explore-div section h3 {
+    grid-area: header;
+    margin: 0.5rem;
+    margin-top: 3rem;
+    width:auto;
+    max-width: 200px;
+    
+}
+#explore-div section button {
+    grid-area: learnButton;
+    max-width: 175px;
+    width:auto;
+    margin:2rem;
+    border-radius: 3rem;
+    height:100px;
+    background-color: var(--darkblue);
+    color: white;
+    font-weight: 700;
+    border: 2px solid gray;
+
+
+}
+
+
+/* Footer */
+footer {
+    background-color: var(--darkblue);
+    font-family: poppins;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    place-items: center;
+    color: white;
+    padding: 1rem;
+    border-top: 5px solid var(--teal);
+}
+
+footer img {
+    max-width: 125px;
+}
+
+
