@@ -21,7 +21,21 @@
         display: grid;
         grid-template-columns: 145px 1fr 1fr;
     }
-
+    #about-us {
+        background-color: var(--lightblue);
+        margin: 1rem;
+        display: grid;
+        grid-template-areas:
+        "image "
+        "heading"
+        "description"
+        "description";
+        border: 9px solid var(--darkblue);
+        place-content: center;
+}
+    #about-us img {
+        width: 100%;
+    }
 
 }
 

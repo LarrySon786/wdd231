@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Made Easy Home Page</title>
-    <meta name="description" content="This is the home page for the travel made easy website.">
+    <title>Vacation Application Page</title>
+    <meta name="description" content="This page is designed to allow users to apply for a vacation. They can submit a form after choosing the vacation they want!">
     <meta name="author" content="Brandon Richards">
 
     <!-- Social Media -->
-    <meta property="og:title" content="Homepage - Travel Made Easy">
+    <meta property="og:title" content="Sign-up for Vacations - Travel Made Easy">
     <meta property="og:description" content="Vacation travel plan website. Plan your vacation easily with very detail!">
     <meta property="og:image" content="images/travel-logo.png">
     <meta property="og:url" content="https://larryson786.github.io/wdd231/finalproject/index.html">
@@ -45,20 +45,19 @@
             <a href="vacation.html" id="selected">Plan Your Vacation</a>
         </navigation>
     </header>
-    <main>
+    <main id="form">
         <h2>Your Vacation Application</h2>
-        <form class="vacationForm" method="get" action="thank-you.html">
+        <form id="vacationForm" method="get" action="thank-you.html">
             <fieldset>
                 <legend>Your Information</legend>
                 <label>First Name*<input type="text" id="fname" name="fname" autocomplete="given-name" required></label>
                 <label>Last Name*<input type="text" id="lname" name="lname" autocomplete="family-name" required></label>
                 <label>Email*<input type="email" id="Email" name="email" autocomplete="email" required placeholder="you@gmail.com"></label>
                 <label>Mobile Phone*<input type="tel" id="Phone" name="phone" autocomplete="tel" required placeholder="999-999-9999"></label>
-                <label>Street Address*<input type="text" id="Address" name="Address" autocomplete="street-address" placeholder required></label>
-                <label>City*<input type="text" id="Address" name="Address" autocomplete="address-line2" placeholder required></label></label>
-                <label>State*<input type="text" id="Address" name="Address" autocomplete="address-line2" placeholder required></label></label>
-                <label>Ohio*<input type="text" id="Address" name="Address" autocomplete="address-line2" placeholder required></label></label>
-                <label>Zip*<input type="text" id="Address" name="Address" autocomplete="address-line2" placeholder required></label></label>
+                <label>Street Address*<input type="text" id="Address" name="Address1" autocomplete="street-address" placeholder required></label>
+                <label>City*<input type="text" id="Address" name="Address2" autocomplete="address-line2" placeholder required></label></label>
+                <label>State*<input type="text" id="Address" name="Address3" autocomplete="address-line2" placeholder required></label></label>
+                <label>Zip*<input type="text" id="Address" name="Address4" autocomplete="address-line2" placeholder required></label></label>
   
 
                  <!-- Thank you page -->
@@ -73,8 +72,8 @@
                         <option value="" selected disabled>Select a Vacation</option>
                     </select>
                 </label>
-                <label>Vacation Start Date*<input type="datetime" name="date" id="start-date" required></label>
-                <label>Vacation End Date*<input type="date" name="date" id="start-date" required></label>
+                <label>Vacation Start Date*<input type="date" name="date1" id="start-date" required></label>
+                <label>Vacation End Date*<input type="date" name="date2" id="start-date" required></label>
             </fieldset>
             <fieldset id="activities">
 

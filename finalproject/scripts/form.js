@@ -73,3 +73,27 @@ vacationSelection.addEventListener("change", () => {
 })
 
 getVacationNames();
+
+
+
+
+
+// Local Storage to Track number of vacations with our company
+const submit = document.querySelector('#activities');
+
+submit.addEventListener('click', () => {
+
+    numberOfVacations = localStorage.getItem('totalVacations');
+    
+    if (numberOfVacations) {
+        numberOfVacations = numberOfVacations + 1;
+    }
+    else {
+        numberOfVacations = 1;
+    }
+
+    localStorage.setItem('totalVacations', numberOfVacations);
+}
+)
+
+
