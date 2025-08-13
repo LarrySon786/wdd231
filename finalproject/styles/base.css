@@ -163,6 +163,9 @@ header button {
 
 /* ********************Vacations Explore Page*************** */
 
+.explore-page h1 {
+    text-align: center;
+}
 
 #explore-div {
     padding-top: 1rem;
@@ -303,7 +306,7 @@ dialog::backdrop {
     grid-template-columns: 1fr 500px 1fr;
 }
 
-#form h2 {
+#form h1 {
     text-align: center;
     grid-column: 2/3;
 }
