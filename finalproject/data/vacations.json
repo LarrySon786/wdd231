@@ -762,6 +762,7 @@
         },
         {
             "name": "Seychelles",
+            "image": "images/seychelles.webp",
             "airport": {
                 "name": "Seychelles International Airport (SEZ)",
                 "address": "Victoria, Mahé, Seychelles",
@@ -837,6 +838,7 @@
         },
         {
             "name": "Petra, Jordan",
+            "image": "images/petra.webp",
             "airport": {
                 "name": "Queen Alia International Airport (AMM)",
                 "address": "Zizyeh, Amman, Jordan",
@@ -912,6 +914,7 @@
         },
         {
             "name": "New York City, USA",
+            "image": "images/new-york.webp",
             "airport": {
                 "name": "John F. Kennedy International Airport (JFK)",
                 "address": "Queens, NY 11430, United States",

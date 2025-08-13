@@ -27,23 +27,60 @@
 
     <!-- Style Sheet -->
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base-smaller.css">
 
     <!-- Javascript -->
     <script src="scripts/footer.js" defer></script>
+    <script src="scripts/form.js" defer></script>
 </head>
 
 <body>
     <header>
         <img src="images/travel-logo.png" width="125" loading="lazy" alt="Travel Logo">
         <h1>Travel Made Easy</h1>
+        <button class="hamburger" title="Open Navigation Menu"></button>
         <navigation id="navigation">
-            <a href="index.html" id="selected">Home</a>
+            <a href="index.html">Home</a>
             <a href="explore.html">Explore Vacations</a>
-            <a href="vacation.html">Plan Your Vacation</a>
+            <a href="vacation.html" id="selected">Plan Your Vacation</a>
         </navigation>
     </header>
     <main>
+        <h2>Your Vacation Application</h2>
+        <form class="vacationForm" method="get" action="thank-you.html">
+            <fieldset>
+                <legend>Your Information</legend>
+                <label>First Name*<input type="text" id="fname" name="fname" autocomplete="given-name" required></label>
+                <label>Last Name*<input type="text" id="lname" name="lname" autocomplete="family-name" required></label>
+                <label>Email*<input type="email" id="Email" name="email" autocomplete="email" required placeholder="you@gmail.com"></label>
+                <label>Mobile Phone*<input type="tel" id="Phone" name="phone" autocomplete="tel" required placeholder="999-999-9999"></label>
+                <label>Street Address*<input type="text" id="Address" name="Address" autocomplete="street-address" placeholder required></label>
+                <label>City*<input type="text" id="Address" name="Address" autocomplete="address-line2" placeholder required></label></label>
+                <label>State*<input type="text" id="Address" name="Address" autocomplete="address-line2" placeholder required></label></label>
+                <label>Ohio*<input type="text" id="Address" name="Address" autocomplete="address-line2" placeholder required></label></label>
+                <label>Zip*<input type="text" id="Address" name="Address" autocomplete="address-line2" placeholder required></label></label>
+  
 
+                 <!-- Thank you page -->
+                  <!-- Confirm details -->
+                   <!-- Your travel Itineray and Recommended Vacation plan will be sent by email -->
+
+            </fieldset>
+            <fieldset>
+                <legend>Create your Vacation!</legend>
+                <label>Choose Your Destination!*
+                    <select name="vacation-options" id="vacation-options" required>
+                        <option value="" selected disabled>Select a Vacation</option>
+                    </select>
+                </label>
+                <label>Vacation Start Date*<input type="datetime" name="date" id="start-date" required></label>
+                <label>Vacation End Date*<input type="date" name="date" id="start-date" required></label>
+            </fieldset>
+            <fieldset id="activities">
+
+            </fieldset>   
+            <input type="submit" value="Start Your Vacation" id="vacationRequest">
+        </form>
     </main>
     <footer>
         <div>

@@ -1,0 +1,33 @@
+@media screen and (max-width: 800px) {
+    
+    
+    #navigation {
+        display: none;
+    }
+
+    #navigation.show {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #navigation.show a {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    header {
+        display: none;
+        display: grid;
+        grid-template-columns: 145px 1fr 1fr;
+    }
+
+
+}
+
+@media  screen and (max-width: 1250px) {
+    #explore-div {
+        grid-template-columns: 1fr;
+    }
+    
+}
