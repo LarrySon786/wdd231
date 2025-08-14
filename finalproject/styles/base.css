@@ -114,7 +114,7 @@ header button {
     position: absolute;
     top: 5%;
     left: 5%;
-    font-size: 3rem;
+    font-size: 2rem;
     max-width: 300px;
     background-color: var(--teal);
     opacity: 0.75;
