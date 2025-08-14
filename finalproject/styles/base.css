@@ -31,7 +31,7 @@ header img {
 }
 
 header nav {
-    grid-area: navigation;
+    display: flex;
     color: white;
 }
 
